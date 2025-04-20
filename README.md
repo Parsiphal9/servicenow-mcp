@@ -46,7 +46,22 @@ This project implements a server that follows the Model Context Protocol (MCP) t
 
 ## Usage
 
-### Starting the MCP Server
+### Starting the MCP Server from MCP config file
+
+Add this json format entry to your MCP config file
+
+```json
+"servicenow-mcp":{
+  "command":"npx",
+  "args":[
+    "-y",
+    "tsx",
+    "path-to-folder/servicenow-mcp/index.ts"
+  ]
+}
+```
+
+### Starting the MCP Server manually
 
 Using npx:
 
