@@ -5,7 +5,10 @@
   "main": "main.ts",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tsx index.ts",
+    "start-bun": "bun index.ts",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "Mixcoatl Deyta",
